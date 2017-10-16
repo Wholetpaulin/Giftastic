@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	font-family: 'Crimson Text', serif;
+	color: #000000;
+  font-size: 24;
+
+}
+
+body{
+	max-height: 100%;
+	max-width: 100%;
+  font-size: 24;
+  background-color: #F7DC6F;
+}
+
+h1{
+  text-align: center;
+  width:100%;
+}
+
+img{
+
+}
+
+button{
+  padding: 6px 14px;
+  border-radius: 8px;
+	margin: 0 6px 0 6px;
+}
+
+p{
+	line-height: 1.5;
+  margin-top: 18px;
+}
+
+input{
+    margin: 2px;
+}
+
+#buttons-view{
+  float: left;
+  width:60%;
+}
+
+
+#gif-form{
+  float: left;
+  width: 35%;
+
+}
+
+#gif-view{
+  text-align: center;
+}

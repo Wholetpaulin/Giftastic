@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Gif-tastic</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class = "center-text">Gif-tastic</h1>
+    <br>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+    
+    <!-- Input field-->
+    <form id="gif-form">
+      <label for="gif-input">Add your own unique gif button:</label>
+      <input type="text" id="gif-input"><br>
+    
+    <!-- Button triggers new animal to be added -->
+      <input id="add-gif" type="submit" value="Add a button">
+    </form>
+
+    <!-- Gifs will Get Dumped Dere -->
+    <br><br><br>
+    <div id="gif-view"></div>
+
+    
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src = "assets/javascript/app.js"></script>
+
+  </div>
+</body>
+
+</html>
